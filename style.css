@@ -1,0 +1,83 @@
+.font{
+    font-family: "Dancing Script", cursive;
+}
+body{
+
+    background: linear-gradient(-45deg, #e39178, #dc5488, #50db77, #de1bec);
+	background-size: 400% 400%;
+	animation: gradient 110s ease infinite;
+
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.name{
+    font-size: 50px;
+    font-family: "Caveat", cursive;
+}
+.dec{
+    margin-top: 1px;
+    font-size: 20px;
+}
+.profile{
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.description{
+    font-family: "Edu AU VIC WA NT Dots", cursive;
+}
+.skills{
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+.skill-container{
+    display: flex;
+    justify-content: center;
+}
+.skill-container > .container{
+    background: linear-gradient(145deg, #f0b7d5, #d680b0);
+    margin: 10px;
+    border: black 2px solid;
+    padding: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8);
+    transition: transform 0.3s ease;
+    border-radius: 15px;
+
+}
+.skill-container > .container:hover{
+    transform: scale(1.05);
+}
+.title{
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.text {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+
+
+
